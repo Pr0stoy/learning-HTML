@@ -1,0 +1,35 @@
+body{
+    background: #000000 url(../media/learn1.jpg) 50% 50%;
+}
+header{
+    position:fixed;
+    top:1%;
+    left:3%;
+    width:94%;
+    height:10%;
+    background: linear-gradient(90deg, rgb(255,255,255) 0%, rgb(125,125,0) 50%, rgb(255,255,255) 100%);
+    border-radius: 40px;
+    box-shadow: 0px 2px 15px 3px rgb(0,0,0);
+}
+
+.ex-block{  
+    border: 20px solid grey;
+    border-radius:50px 10px 20px 50px;
+    box-shadow: 3px 3px 15px 5px rgb(0,0,0);
+    max-width: 300px;
+    padding: 20px;
+    margin-bottom:20%;    
+}
+.ex-line{
+
+    outline: 5px solid black;
+}
+    .ex-img{
+        max-width: 500px;
+        opacity: 0;
+        &:hover{
+            border: 5px solid black;
+            opacity: 1;
+        
+        }
+    }
