@@ -24,7 +24,12 @@ header{
 
     outline: 5px solid black;
 }
-.ex-img{
-    max-width: 500px;
-    opacity: 0;
-}
+    .ex-img{
+        max-width: 500px;
+        opacity: 0;
+        &:hover{
+            border: 5px solid black;
+            opacity: 1;
+        
+        }
+    }
