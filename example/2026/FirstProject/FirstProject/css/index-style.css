@@ -1,0 +1,25 @@
+body{
+    background: #000000 url(../media/learn1.jpg) 50% 50%;
+}
+.bg{
+    height:100vh;
+    background: linear-gradient(to right, #000000,#da0d0d);
+    opacity:0.5;
+    width: 100%;
+}
+.ex-block{
+    border: 20px solid grey;
+    border-radius:50px 10px 20px 50px;
+    box-shadow: 3px 3px 15px 5px rgb(0,0,0);
+    max-width: 300px;
+    padding: 20px;
+    margin-bottom:20%;    
+}
+.ex-line{
+
+    outline: 5px solid black;
+}
+.ex-img{
+    max-width: 500px;
+    opacity: 0;
+}
