@@ -1,13 +1,18 @@
 body{
     background: #000000 url(../media/learn1.jpg) 50% 50%;
 }
-.bg{
-    height:100vh;
-    background: linear-gradient(to right, #000000,#da0d0d);
-    opacity:0.5;
-    width: 100%;
+header{
+    position:fixed;
+    top:1%;
+    left:3%;
+    width:94%;
+    height:10%;
+    background: linear-gradient(90deg, rgb(255,255,255) 0%, rgb(125,125,0) 50%, rgb(255,255,255) 100%);
+    border-radius: 40px;
+    box-shadow: 0px 2px 15px 3px rgb(0,0,0);
 }
-.ex-block{
+
+.ex-block{  
     border: 20px solid grey;
     border-radius:50px 10px 20px 50px;
     box-shadow: 3px 3px 15px 5px rgb(0,0,0);
