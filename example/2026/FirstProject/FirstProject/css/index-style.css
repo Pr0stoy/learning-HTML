@@ -1,8 +1,11 @@
+@charset "UTF-8";
+/* попадает в css */
 body {
   background: #000000 url(../media/learn1.jpg) 50% 50%;
 }
 
 header {
+  z-index: 1;
   position: fixed;
   top: 1%;
   left: 3%;
@@ -10,13 +13,13 @@ header {
   height: 10%;
   background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(125, 125, 0) 50%, rgb(255, 255, 255) 100%);
   border-radius: 40px;
-  box-shadow: 0px 2px 15px 3px rgb(0, 0, 0);
+  box-shadow: 0px 2px 15px 3px #000000;
 }
 
 .ex-block {
   border: 20px solid grey;
   border-radius: 50px 10px 20px 50px;
-  box-shadow: 3px 3px 15px 5px rgb(0, 0, 0);
+  box-shadow: 0px 2px 15px 3px #000000;
   max-width: 300px;
   padding: 20px;
   margin-left: 10%;
@@ -34,6 +37,8 @@ header {
 
 .ex-line {
   outline: 5px solid black;
+  font-size: 25px;
+  box-shadow: 0px 2px 15px 3px #000000;
 }
 
 .ex-img {
@@ -41,6 +46,19 @@ header {
   opacity: 0;
 }
 .ex-img:hover {
-  border: 5px solid black;
+  border: 7px solid #2db928;
   opacity: 1;
+}
+
+.bg {
+  border: 5px solid black;
+  box-shadow: 0px 2px 15px 3px #000000;
+}
+.bg .p1 {
+  font-size: 50px;
+  border: 7px solid #2db928;
+}
+.bg .p2 {
+  font-size: 30px;
+  color: #03b812;
 }/*# sourceMappingURL=index-style.css.map */
