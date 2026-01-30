@@ -19,7 +19,17 @@ header {
   box-shadow: 3px 3px 15px 5px rgb(0, 0, 0);
   max-width: 300px;
   padding: 20px;
+  margin-left: 10%;
   margin-bottom: 20%;
+  margin-top: 10%;
+  position: relative;
+}
+.ex-block::before {
+  content: "<<<";
+  font-size: 20px;
+  position: absolute;
+  left: -40px;
+  top: -40px;
 }
 
 .ex-line {
