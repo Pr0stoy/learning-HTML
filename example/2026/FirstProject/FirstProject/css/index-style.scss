@@ -41,7 +41,7 @@ header{
 }
 
 
-.ex-block{  
+.exBlock{  
     border: 20px solid grey;
     border-radius:50px 10px 20px 50px;
     box-shadow: $bxshd;
@@ -87,3 +87,21 @@ header{
     }
 }
 
+
+#hdr{
+    font-size:120px;
+    text-align:center;
+    color:#b7b920;
+    #p1{
+        color:#339e30;
+    }
+    #p2{
+        color:#30449e;
+    }
+    #p3{
+        color:#d42a2a;
+    }
+    #p4{
+        color:#2d994e;
+    }
+}

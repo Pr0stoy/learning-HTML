@@ -16,7 +16,7 @@ header {
   box-shadow: 0px 2px 15px 3px #000000;
 }
 
-.ex-block {
+.exBlock {
   border: 20px solid grey;
   border-radius: 50px 10px 20px 50px;
   box-shadow: 0px 2px 15px 3px #000000;
@@ -27,7 +27,7 @@ header {
   margin-top: 10%;
   position: relative;
 }
-.ex-block::before {
+.exBlock::before {
   content: "<<<";
   font-size: 20px;
   position: absolute;
@@ -61,4 +61,22 @@ header {
 .bg .p2 {
   font-size: 30px;
   color: #03b812;
+}
+
+#hdr {
+  font-size: 120px;
+  text-align: center;
+  color: #b7b920;
+}
+#hdr #p1 {
+  color: #339e30;
+}
+#hdr #p2 {
+  color: #30449e;
+}
+#hdr #p3 {
+  color: #d42a2a;
+}
+#hdr #p4 {
+  color: #2d994e;
 }/*# sourceMappingURL=index-style.css.map */
