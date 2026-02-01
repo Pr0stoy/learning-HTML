@@ -21,7 +21,7 @@
 
 // НЕ попадает в css
 /* попадает в css */
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 $bd: 7px solid #2db928;
 $bxshd: 0px 2px 15px 3px #000000;
 
@@ -63,6 +63,12 @@ header{
     outline: 5px solid black;
     font-size: 25px;
     box-shadow:$bxshd;
+}
+.ex-line-ukr{
+    margin: 30px 0px 0px 0px;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-weight: 700;
 }
     .ex-img{
         max-width: 500px;

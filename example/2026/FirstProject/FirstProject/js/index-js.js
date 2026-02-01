@@ -58,3 +58,15 @@
 // let S = Math.sqrt(p*(p-l1)*(p-l2)*(p-l3));
 // let p1 = document.getElementById('p1');
 // p1.textContent = `${l1}`;
+
+//Задача №8
+// let grivni = +prompt('Скільки у вас гривень?');
+// let dollari = grivni/43;
+// let evriki = grivni/51;
+// let punds = grivni/59;
+// let p1 = document.getElementById('p1');
+// p1.textContent = `У вас є ${dollari} $`;
+// let p2 = document.getElementById('p2');
+// p2.textContent = `У вас є ${evriki} €`;
+// let p3 = document.getElementById('p3');
+// p3.textContent = `У вас є ${punds} £`;
