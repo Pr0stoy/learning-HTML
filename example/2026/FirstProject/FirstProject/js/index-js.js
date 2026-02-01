@@ -31,12 +31,30 @@
 // p1.textContent = `${vir.toFixed(1)}`;
 
 //Задача №5
-let v1 = prompt('Введіть координати першого відрізка: ');
-let v2 = prompt('Введіть координати другого відрізка: ');
-let v1Split = v1.split(' ');
-let v2Split = v2.split(' ');
-let [x1,y1,z1] = v1Split.map(Number);
-let [x2,y2,z2] = v2Split.map(Number);
-let res = `${(x2+x1)/2} , ${(y2+y1)/2} , ${(z2+z1)/2}`;
-let p1 = document.getElementById('p1');
-p1.textContent = `${res}`;
+// let v1 = prompt('Введіть координати першого відрізка: ');
+// let v2 = prompt('Введіть координати другого відрізка: ');
+// let v1Split = v1.split(' ');
+// let v2Split = v2.split(' ');
+// let [x1,y1,z1] = v1Split.map(Number);
+// let [x2,y2,z2] = v2Split.map(Number);
+// let res = `${(x2+x1)/2} , ${(y2+y1)/2} , ${(z2+z1)/2}`;
+// let p1 = document.getElementById('p1');
+// p1.textContent = `${res}`;
+
+//Задача №7
+// let v1 = prompt('Введіть координати першого вершини: ');
+// let v2 = prompt('Введіть координати другого вершини: ');
+// let v3 = prompt('Введіть координати третьої вершини: ');
+// let v1Split = v1.split(' ').map(Number);
+// let v2Split = v2.split(' ').map(Number);
+// let v3Split = v3.split(' ').map(Number);
+// let [x1,y1,z1] = v1Split;
+// let [x2,y2,z2] = v2Split;
+// let [x3,y3,z3] = v3Split;
+// let l1 = Math.sqrt((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2);
+// let l2 = Math.sqrt((x3-x2)**2 + (y3-y2)**2 + (z3-z2)**2);
+// let l3 = Math.sqrt((x3-x1)**2 + (y3-y1)**2 + (z3-z1)**2);
+// let p = (l1+l2+l3)/2;
+// let S = Math.sqrt(p*(p-l1)*(p-l2)*(p-l3));
+// let p1 = document.getElementById('p1');
+// p1.textContent = `${l1}`;
