@@ -2,7 +2,7 @@
 /* попадает в css */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 body {
-  background: #000000 url(../media/learn1.jpg) 50% 50%;
+  background: #ffffff 50% 50%;
 }
 
 header {
@@ -17,75 +17,48 @@ header {
   box-shadow: 0px 2px 15px 3px #000000;
 }
 
-.exBlock {
-  border: 20px solid grey;
-  border-radius: 50px 10px 20px 50px;
-  box-shadow: 0px 2px 15px 3px #000000;
-  max-width: 300px;
-  padding: 20px;
-  margin-left: 10%;
-  margin-bottom: 20%;
-  margin-top: 10%;
-  position: relative;
+.container {
+  border: 2px solid black;
+  max-width: 100%;
+  margin: 7% 10px 0px 5px;
 }
-.exBlock::before {
-  content: "<<<";
-  font-size: 20px;
-  position: absolute;
-  left: -40px;
-  top: -40px;
+.container .container-3col {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
-
-.ex-line {
-  outline: 5px solid black;
-  font-size: 25px;
-  box-shadow: 0px 2px 15px 3px #000000;
-}
-
-.ex-line-ukr {
-  margin: 30px 0px 0px 0px;
-  font-family: Pacifico;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.ex-img {
-  max-width: 500px;
-  opacity: 0;
-}
-.ex-img:hover {
-  border: 7px solid #2db928;
-  opacity: 1;
-  cursor: pointer;
-}
-
-.bg {
-  border: 5px solid black;
-  box-shadow: 0px 2px 15px 3px #000000;
-}
-.bg .p1 {
-  font-size: 50px;
-  border: 7px solid #2db928;
-}
-.bg .p2 {
-  font-size: 30px;
-  color: #03b812;
-}
-
-#hdr {
-  font-size: 120px;
+.container .container-3col .element-3col {
+  overflow: hidden;
+  margin: 15px;
+  display: block;
   text-align: center;
-  color: #b7b920;
+  border: 2px solid black;
+  justify-content: center;
 }
-#hdr #p1 {
-  color: #339e30;
+.container .container-3col .element-3col .photo-3col {
+  padding: 10px 10px 0 10px;
 }
-#hdr #p2 {
-  color: #30449e;
+.container .container-3col .element-3col .photo-3col img {
+  width: 100%;
+  height: auto;
 }
-#hdr #p3 {
-  color: #d42a2a;
+.container .container-2col {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
-#hdr #p4 {
-  color: #2d994e;
+.container .container-2col .element-2col {
+  overflow: hidden;
+  margin: 15px;
+  display: block;
+  text-align: center;
+  border: 2px solid black;
+  justify-content: center;
+}
+.container .container-2col .element-2col .photo-3col {
+  padding: 10px 10px 0 10px;
+}
+.container .container-2col .element-2col .photo-3col img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=index-style.css.map */

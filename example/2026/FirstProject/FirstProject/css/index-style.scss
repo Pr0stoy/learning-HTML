@@ -26,7 +26,7 @@ $bd: 7px solid #2db928;
 $bxshd: 0px 2px 15px 3px #000000;
 
 body{
-    background: #000000 url(../media/learn1.jpg) 50% 50%;
+    background: #ffffff 50% 50%;
 }
 header{
     z-index: 1;
@@ -40,74 +40,54 @@ header{
     box-shadow: $bxshd;
 }
 
-
-.exBlock{  
-    border: 20px solid grey;
-    border-radius:50px 10px 20px 50px;
-    box-shadow: $bxshd;
-    max-width: 300px;
-    padding: 20px;
-    margin-left: 10%;
-    margin-bottom:20%;    
-    margin-top: 10%;
-    position:relative;
-    &::before{
-        content:"<<<";
-        font-size:20px;
-        position: absolute;
-        left:-40px;
-        top:-40px;
+.container{
+    border:2px solid black;
+    max-width: 100%;
+    margin: 7% 10px 0px 5px;
+    .container-3col{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;    
+        .element-3col{
+            overflow: hidden;
+            margin:15px;
+            display:block;
+            text-align: center;
+            border: 2px solid black;
+            justify-content: center;
+            .photo-3col{
+                padding: 10px 10px 0 10px;
+                img{
+                    width:100%;
+                    height:auto;
+                }
+            }
+        }
     }
-}
-.ex-line{
-    outline: 5px solid black;
-    font-size: 25px;
-    box-shadow:$bxshd;
-}
-.ex-line-ukr{
-    margin: 30px 0px 0px 0px;
-    font-family: Pacifico;
-    font-size: 40px;
-    font-weight: 700;
-}
-    .ex-img{
-        max-width: 500px;
-        opacity: 0;
-        &:hover{
-            border: $bd;
-            opacity: 1;
-            cursor: pointer;
+    .container-2col{
+        display:flex;
+        justify-content: space-between;
+        padding: 5px;
+        .element-2col{
+            overflow: hidden;
+            margin:15px;
+            display:block;
+            text-align: center;
+            border: 2px solid black;
+            justify-content: center;
+            .photo-3col{
+                padding: 10px 10px 0 10px;
+                img{
+                    width:100%;
+                    height:auto;
+                }
+            }
         }
     }
 
-.bg{
-    border:5px solid black;
-    box-shadow:$bxshd;
-    .p1{
-        font-size: 50px;
-        border:$bd;
-    }
-    .p2{
-        font-size: 30px;
-        color:#03b812;
-    }
+
+
 }
 
 
-#hdr{
-    font-size:120px;
-    text-align:center;
-    color:#b7b920;
-    #p1{
-        color:#339e30;
-    }
-    #p2{
-        color:#30449e;
-    }
-    #p3{
-        color:#d42a2a;
-    }
-    #p4{
-        color:#2d994e;
-    }
-}
+
