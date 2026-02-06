@@ -70,3 +70,8 @@
 // p2.textContent = `У вас є ${evriki} €`;
 // let p3 = document.getElementById('p3');
 // p3.textContent = `У вас є ${punds} £`;
+
+let header = document.getElementById('headerer');
+header.addEventListener('click', function(){
+    this.classList.toggle('header-click');
+})

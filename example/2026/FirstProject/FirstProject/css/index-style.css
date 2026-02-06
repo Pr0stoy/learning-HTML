@@ -2,6 +2,7 @@
 /* попадает в css */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 body {
+  font-family: Pacifico;
   background: #ffffff 50% 50%;
 }
 
@@ -16,18 +17,44 @@ header {
   border-radius: 40px;
   box-shadow: 0px 2px 15px 3px #000000;
 }
+header:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(125, 125, 0) 0%, rgb(255, 255, 255) 50%, rgb(125, 125, 0) 100%);
+}
 
-.container {
-  border: 2px solid black;
-  max-width: 100%;
-  margin: 7% 10px 0px 5px;
+.header-click {
+  animation: scaleUp 0.5s ease-in-out forwards;
+  background: linear-gradient(90deg, rgb(125, 125, 0) 0%, rgb(125, 125, 0) 50%, rgb(125, 125, 0) 100%);
 }
-.container .container-3col {
+.header-click:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(125, 125, 0) 0%, rgb(125, 125, 0) 50%, rgb(125, 125, 0) 100%);
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.page {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.page .container {
+  border: 2px solid black;
+  max-width: 1200px;
+  margin: 6% 10px 0px 5px;
+}
+.page .container .container-3col {
   display: flex;
   justify-content: space-between;
   padding: 5px;
 }
-.container .container-3col .element-3col {
+.page .container .container-3col .element-3col {
   overflow: hidden;
   margin: 15px;
   display: block;
@@ -35,19 +62,22 @@ header {
   border: 2px solid black;
   justify-content: center;
 }
-.container .container-3col .element-3col .photo-3col {
+.page .container .container-3col .element-3col .text-3col {
+  padding: 0 5px 5px 5px;
+}
+.page .container .container-3col .element-3col .photo-3col {
   padding: 10px 10px 0 10px;
 }
-.container .container-3col .element-3col .photo-3col img {
+.page .container .container-3col .element-3col .photo-3col img {
   width: 100%;
   height: auto;
 }
-.container .container-2col {
+.page .container .container-2col {
   display: flex;
   justify-content: space-between;
   padding: 5px;
 }
-.container .container-2col .element-2col {
+.page .container .container-2col .element-2col {
   overflow: hidden;
   margin: 15px;
   display: block;
@@ -55,10 +85,32 @@ header {
   border: 2px solid black;
   justify-content: center;
 }
-.container .container-2col .element-2col .photo-3col {
+.page .container .container-2col .element-2col .photo-2col {
   padding: 10px 10px 0 10px;
 }
-.container .container-2col .element-2col .photo-3col img {
+.page .container .container-2col .element-2col .photo-2col img {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 1200px) {
+  .page {
+    min-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .page {
+    min-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    min-width: none;
+  }
+  .container-3col {
+    flex-direction: column;
+  }
+  .container-2col {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=index-style.css.map */
