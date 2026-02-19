@@ -71,7 +71,13 @@
 // let p3 = document.getElementById('p3');
 // p3.textContent = `У вас є ${punds} £`;
 
-let header = document.getElementById('headerer');
-header.addEventListener('click', function(){
-    this.classList.toggle('header-click');
-})
+// let header = document.getElementById('headerer');
+// header.addEventListener('click', function(){
+//     this.classList.toggle('header-click');
+// })
+
+// let a = prompt('a=');
+// let aSplit = a.split(' ').map(Number);
+// let cont = document.getElementById('headerer');
+// let c = aSplit[0]*aSplit[1];
+// cont.textContent = `${c}`;
