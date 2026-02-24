@@ -6,6 +6,13 @@ body{
     justify-content: center;
     font-family: sans-serif;
 }
+.container0{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+}
 .container{
     max-width: 340px;
     /* Position */
