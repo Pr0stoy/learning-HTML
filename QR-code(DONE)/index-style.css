@@ -25,7 +25,7 @@ body {
   max-width: 290px;
   max-height: 290px;
   padding: 2px;
-  margin: 15px;
+  margin: 10px;
 }
 .container .area .qr-area img {
   height: 290px;
@@ -33,15 +33,17 @@ body {
 }
 .container .area .text-area {
   max-width: 280px;
-  margin: 15px 15px 15px 15px;
+  margin: 5px 15px 15px 15px;
 }
 .container .area .text-area .text-title {
+  color: hsl(218, 44%, 22%);
   font-size: 23px;
   font-weight: 700;
   text-align: center;
 }
 .container .area .text-area .text {
-  margin: 20px;
+  color: hsl(216, 15%, 48%);
+  margin: 12px 20px 20px 20px;
   font-size: 15px;
   font-weight: 400;
   text-align: center;
