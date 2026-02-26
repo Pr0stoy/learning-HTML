@@ -40,19 +40,12 @@ header{
     border-radius: 40px;
     box-shadow: $bxshd;
     &:hover{
+        animation: scaleUp 0.5s ease-in-out forwards;
         cursor:pointer;
         background: linear-gradient(90deg, rgb(125,125,0) 0%, rgb(255,255,255) 50%, rgb(125,125,0) 100%);
     }
 }
-.header-click{
-    animation: scaleUp 0.5s ease-in-out forwards;
-    background: linear-gradient(90deg, rgb(125,125,0) 0%, rgb(125,125,0) 50%, rgb(125,125,0) 100%);
-    &:hover{
-        cursor:pointer;
-        background: linear-gradient(90deg, rgb(125,125,0) 0%, rgb(125,125,0) 50%, rgb(125,125,0) 100%);
-    }
-}
-@keyframes scaleUp {
+@keyframes  scaleUp {
     0%{
         transform: scale(1);
     }
