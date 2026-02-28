@@ -1,0 +1,147 @@
+%dspl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
+
+body{
+    font-family: Inter;
+    background-color: hsl(0, 0%, 8%);
+    @extend %dspl;
+    box-sizing: border-box;
+    height:100vh;
+    margin:0;
+}
+.container{
+    background:hsl(0, 0%, 12%);
+    height:65vh;
+    width:40vh;
+    @extend %dspl;
+
+    .area{
+        background:hsl(0, 0%, 12%);
+        @extend %dspl;
+        justify-content: start;
+        height:60vh;
+        width:35vh;
+        flex-direction: column;
+        .image{
+            margin:2vh 0 0 0;
+            @extend %dspl;
+            #im{
+                border-radius:50px;
+                max-width:10vh;
+            }
+        }
+        .text{
+            margin:2vh 0 0 0;
+            @extend %dspl;
+            flex-direction: column;
+            .title{
+                font-size:20px;
+                color:hsl(0,0%, 100%);
+                font-weight:600;
+                }
+            .subtitle{
+                margin:1vh 0 0 0;
+                font-size:11px;
+                color:hsl(75, 94%, 57%);
+                font-weight:600;
+            }
+            .subtext{
+                margin:3vh 0 0 0;
+                font-size:11px;
+                font-weight: 400;
+                color: hsl(0,0%, 85%);
+            }
+        }
+        .buttons{
+            
+            margin:1vh 0 0 0;
+            color: hsl(0,0%,85%);
+            @extend %dspl;
+            justify-content: space-around;
+            flex-direction:column;
+            width:100%;
+            flex-grow:1;    
+            .b1{
+                cursor:pointer;
+                font-weight:600;
+                font-size:12px;
+                border-radius: 5px;
+                margin:1vh;
+                @extend %dspl;
+                height:100%;
+                width:100%;
+                background-color: hsl(0, 0%, 20%);
+                &:hover{
+                    background-color: hsl(75, 94%, 57%);
+                    color: hsl(0,0%,10%);
+                }
+            }
+            .b2{
+                cursor:pointer;
+                font-weight:600;
+                font-size:12px;
+                border-radius: 5px;
+                margin:1vh;
+                @extend %dspl;
+                height:100%;
+                width:100%;
+                background-color: hsl(0, 0%, 20%);
+                &:hover{
+                    background-color: hsl(75, 94%, 57%);
+                    color: hsl(0,0%,10%);
+                }
+            }
+            .b3{
+                cursor:pointer;
+                font-weight:600;
+                font-size:12px;
+                border-radius: 5px;
+                margin:1vh;
+                @extend %dspl;
+                height:100%;
+                width:100%;
+                background-color: hsl(0, 0%, 20%);
+                &:hover{
+                    background-color: hsl(75, 94%, 57%);
+                    color: hsl(0,0%,10%);
+                }
+            }
+            .b4{
+                cursor:pointer;
+                font-weight:600;
+                font-size:12px;
+                border-radius: 5px;
+                margin:1vh;
+                @extend %dspl;
+                height:100%;
+                width:100%;
+                background-color: hsl(0, 0%, 20%);
+                &:hover{
+                    background-color: hsl(75, 94%, 57%);
+                    color: hsl(0,0%,10%);
+                }
+            }
+            .b5{
+                cursor:pointer;
+                font-weight:600;
+                font-size:12px;
+                border-radius: 5px;
+                margin:1vh; 
+                @extend %dspl;
+                height:100%;
+                width:100%;
+                background-color: hsl(0, 0%, 20%);
+                &:hover{
+                    background-color: hsl(75, 94%, 57%);
+                    color: hsl(0,0%,10%);
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+.container .area .buttons .b5, .container .area .buttons .b4, .container .area .buttons .b3, .container .area .buttons .b2, .container .area .buttons .b1, .container .area .buttons, .container .area .text, .container .area .image, .container .area, .container, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: Inter;
+  background-color: hsl(0, 0%, 8%);
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: hsl(0, 0%, 12%);
+  height: 65vh;
+  width: 40vh;
+}
+.container .area {
+  background: hsl(0, 0%, 12%);
+  justify-content: start;
+  height: 60vh;
+  width: 35vh;
+  flex-direction: column;
+}
+.container .area .image {
+  margin: 2vh 0 0 0;
+}
+.container .area .image #im {
+  border-radius: 50px;
+  max-width: 10vh;
+}
+.container .area .text {
+  margin: 2vh 0 0 0;
+  flex-direction: column;
+}
+.container .area .text .title {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+.container .area .text .subtitle {
+  margin: 1vh 0 0 0;
+  font-size: 11px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+.container .area .text .subtext {
+  margin: 3vh 0 0 0;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(0, 0%, 85%);
+}
+.container .area .buttons {
+  margin: 1vh 0 0 0;
+  color: hsl(0, 0%, 85%);
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+}
+.container .area .buttons .b1 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 1vh;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+.container .area .buttons .b1:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 10%);
+}
+.container .area .buttons .b2 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 1vh;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+.container .area .buttons .b2:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 10%);
+}
+.container .area .buttons .b3 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 1vh;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+.container .area .buttons .b3:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 10%);
+}
+.container .area .buttons .b4 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 1vh;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+.container .area .buttons .b4:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 10%);
+}
+.container .area .buttons .b5 {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 1vh;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+}
+.container .area .buttons .b5:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 10%);
+}/*# sourceMappingURL=index-style.css.map */
