@@ -67,6 +67,8 @@ body{
             width:100%;
             flex-grow:1;    
             .b1{
+                transition-timing-function: ease-in-out;
+                transition-duration: 0.5s;
                 cursor:pointer;
                 font-weight:600;
                 font-size:12px;
@@ -82,6 +84,8 @@ body{
                 }
             }
             .b2{
+                transition-timing-function: ease-in-out;
+                transition-duration: 0.5s;
                 cursor:pointer;
                 font-weight:600;
                 font-size:12px;
@@ -97,6 +101,8 @@ body{
                 }
             }
             .b3{
+                transition-timing-function: ease-in-out;
+                transition-duration: 0.5s;
                 cursor:pointer;
                 font-weight:600;
                 font-size:12px;
@@ -112,6 +118,8 @@ body{
                 }
             }
             .b4{
+                transition-timing-function: ease-in-out;
+                transition-duration: 0.5s;
                 cursor:pointer;
                 font-weight:600;
                 font-size:12px;
@@ -127,6 +135,8 @@ body{
                 }
             }
             .b5{
+                transition-duration: 0.5s;
+                transition-timing-function: ease-in-out;
                 cursor:pointer;
                 font-weight:600;
                 font-size:12px;
