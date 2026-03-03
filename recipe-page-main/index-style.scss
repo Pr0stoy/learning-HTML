@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(30, 54%, 90%);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    // border:3px solid black;
+    .area{
+        background-color: hsl(0,0%,100%);
+        max-width:50%;
+        border-radius:17px;
+
+        .container{
+            display:flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            margin:30px 30px 0 30px;
+            img{
+                border-radius:10px;
+                max-width:100%;
+
+            }
+            h1{
+                font-family: Young Serif;
+                font-weight: 400;
+                font-size:2.5em;
+                color:hsl(24,5%,18%);
+                margin-bottom: 17px;
+            }
+            .text1{
+                margin-top:0;
+                font-family:Outfit;
+                font-weight: 400;
+                font-size:15px;
+                color:hsl(30,10%,34%);
+                letter-spacing: 1px;
+            }
+            .list1{
+                background-color:hsl(330,100%,98%);
+                border-radius:10px;
+                margin-top:25px;
+            
+                .list-title1{
+                    font-family:Outfit;
+                    color:hsl(332, 51%, 32%);
+                    font-weight:600;
+                    font-size:1.5em;
+                    margin:25px;
+                }
+                ul{
+                    list-style-type:disc;
+                    
+                    font-family:Outfit;
+                    font-size:0.9em;
+                    li{
+                        font-weight:400;
+                        margin-top:10px;   
+                    }
+                    li::marker{
+                        color:hsl(332, 51%, 32%);
+                    }
+                    span{
+                        font-weight:600;
+                        margin:20px 0 20px 20px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
